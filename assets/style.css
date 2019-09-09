@@ -1,0 +1,370 @@
+
+/* ---------------------@media print css  ----------------------*/
+@media print
+{
+  hr{
+    display: none;
+  }
+  body{
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .tab-container.jsx-4017309047{
+    display: none !important;
+  }
+  #tableR .dash-spreadsheet-inner th{
+    background-color: rgb(255, 255, 255)  !important;
+    color: rgb(0, 0, 0) !important;
+    text-align: center !important;
+     font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  height: 2.5em;
+  }
+  
+  html, body{
+    page-break-after: avoid !important;
+    page-break-before: avoid !important;
+      }
+  @page {
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    margin-left: 2cm;
+    margin-right: 2cm;     
+    }
+
+  
+    
+      #tableR th, #tableR td {
+        border: 1px solid lightgrey;
+        font-weight: lighter;
+        padding: 4px;
+        font-size: 10pt;
+        text-align: center;
+        color: #000 !important;
+        
+          }
+
+          #tableR table {
+            border-collapse: collapse;
+            overflow-y:hidden;
+              }
+
+
+
+
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+    #reportGraphs, #kmeansReport {
+      /* page-break-after: auto; */
+      page-break-inside: avoid;
+      /* page-break-after: avoid !important;
+      page-break-before: avoid !important; */
+      display: grid;
+      grid-template-columns: repeat(2,0.5fr);
+      grid-gap: 0px;
+      margin-top: 2cm;
+      margin-bottom: 2cm;
+      margin-left: 2cm;
+      margin-right: 6cm;  
+      
+  
+      
+
+    }
+    .react-draggable .react-draggable-dragged{
+      page-break-inside: avoid;
+      
+    }
+   
+    #text {
+      page-break-inside: avoid;
+    }
+
+  /* div * {
+  
+     
+  } */
+  
+
+
+
+
+
+
+}
+
+/* ---------------------@media print css  ----------------------*/
+
+
+
+/* ---------------------@media screen css  ----------------------*/
+
+body{
+  background-image:url("https://png2.kisspng.com/sh/6ed65f16a5bbb71a3ce72a2b69aee307/L0KzQYm3VME0N5NsfZH0aYP2gLBuTfRme5x5hAI2d3HvfMHokPVzNZpzftH7bXH3ebF1TfRifJIyedDqbIn2ecS0kPF1fJZ3hp8AYXS0QrKBUBFiPmI5UZCCMke3Roi9WcE2OmQ7Tak8NEe5SYiCTwBvbz==/kisspng-desktop-wallpaper-information-data-analysis-pattern-5ad12a83aa6149.7274676915236573476979.png");
+  background-size: cover;
+
+  /*  */
+  
+}
+a {
+  color: #4418ef !important;
+    text-decoration: underline !important;
+}
+#table .dash-spreadsheet-inner th{
+    background-color: #6C5B7B  !important;
+    color: white !important;
+    text-align: center !important;
+     font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  height: 2.5em;
+}
+
+#table .dash-spreadsheet-inner td{
+  text-align: center !important;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  height: 2.5em;
+}
+
+#tablef .dash-spreadsheet-inner th{
+    
+    text-align: center !important;
+     font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  height: 2.5em;
+}
+
+#tablef .dash-spreadsheet-inner td{
+  text-align: center !important;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+  height: 2.5em;
+}
+
+.dash-spreadsheet-container .dash-spreadsheet-inner input:not([type=radio]):not([type=checkbox]){
+  
+  text-align: center !important;
+}
+
+#dropdown_viz .Select, .Select div, .Select input, .Select span {
+  z-index: 1000 !important;
+}
+
+div#reportGraphs {
+    display: grid;
+    grid-template-columns: repeat(2,0.5fr);
+    grid-gap: 9px;
+}
+
+
+#tableR .dash-spreadsheet-inner th{
+  background-color: #6C5B7B  !important;
+  color: white !important;
+  text-align: center !important;
+   font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+height: 2.5em;
+}
+
+#tableR .dash-spreadsheet-inner td{
+text-align: center !important;
+font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+height: 2.5em;
+}
+
+div#textArea {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 10px;
+  line-height: 1em;
+}
+
+div#wrap {
+  display: grid;
+  grid-template-columns: repeat(3,0.1fr);
+  grid-gap: 10px;
+}
+
+.drp3{
+  display: grid;
+  grid-template-columns: repeat(2,1.5fr);
+  grid-gap: 90px;
+}
+
+button#button-text.button-primary{
+  width: fit-content;
+  align-self: end;
+  margin: 1em;
+}
+textarea {
+  font-size:1.5em;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0;
+  display: flex; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; 
+}
+
+#tableColumn .dash-spreadsheet-inner th{
+    
+  text-align: center !important;
+   font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+height: 2.5em;
+}
+
+#tableColumn .dash-spreadsheet-inner td{
+text-align: center !important;
+font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+height: 2.5em;
+}
+
+div#card {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+#groupby .dash-spreadsheet-inner th{
+  background-color: #6C5B7B  !important;
+  color: white !important;
+  text-align: center !important;
+   font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+height: 2.5em;
+}
+
+#groupby .dash-spreadsheet-inner td{
+text-align: center !important;
+font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+height: 2.5em;
+}
+
+div#overview {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+#overview-table .dash-spreadsheet-inner th{
+  background-color: #6C5B7B  !important;
+  color: white !important;
+  text-align: center !important;
+   font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+height: 2.5em;
+}
+
+#overview-table .dash-spreadsheet-inner td{
+text-align: center !important;
+font-family: "Times New Roman", Times, serif;
+font-size: 1em;
+height: 2.5em;
+}
+
+.dropdowns{
+  display: grid;
+  grid-template-columns: repeat(3,0.3fr);
+  grid-gap: 5px;
+}
+
+.centerDiv{
+  
+    text-align: -webkit-center;
+    width: 80%;
+
+}
+.uploadText{
+  margin-left: 11em;
+  margin-top: 1em;
+}
+._dash-loading-callback {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+ }
+ 
+ 
