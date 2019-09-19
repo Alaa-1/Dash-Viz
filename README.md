@@ -11,3 +11,10 @@ The requirements.txt file should list all Python libraries that this app depend 
 ```
 pip install -r requirements.txt
 ```
+
+Run the app using:
+
+```
+python app.py
+```
+
